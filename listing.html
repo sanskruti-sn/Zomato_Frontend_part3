@@ -1,0 +1,147 @@
+<!DOCTYPE hrml>
+<html>
+    <head>
+        <title>Zomato</title>
+        <link href="https://www.apkmirror.com/wp-content/uploads/2017/05/592cc71b2d001-384x384.png" rel="icon" sizes="20x25"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="listing.css" rel="stylesheet" type="text/css"/>   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <!--Navbar-->
+        <div class="menu">
+            <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                
+                <a class="navbar-brand text-color" href="..\home\index.html">
+                    <div class="logo"></div>
+                        <h3>z!</h3>
+                    </div>
+                </a>          
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="text-color"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#" class="text-color"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+
+        <!--Body Section-->
+        <div class="body">
+            <div id="heading">
+                Breakfast Places in Mumbai
+            </div>
+            <div id = "sort">
+                <h2>Filters</h2>
+                <div id="location">
+                    <h4>Select Location</h4>
+                    <select>
+                        <option>Please select location</option>
+                        <option>Delhi</option>
+                        <option>Pune</option>
+                        <option>Bengalore</option>
+                        <option>Hyderabad</option>
+                    </select>
+                </div>
+                <div id="cuisine">
+                    <h4>Cuisine</h4>
+                    <input type="checkbox" id="North Indian" name="North Indian" value="North Indian">
+                    <label for="North Indian">North Indian</label><br>
+                    <input type="checkbox" id="South Indian" name="South Indian" value="South Indian">
+                    <label for="South Indian">South Indian</label><br>
+                    <input type="checkbox" id="Chinese" name="Chinese" value="Chinese">
+                    <label for="Chinese">Chinese</label><br>
+                    <input type="checkbox" id="Fast Food" name="Fast Food" value="Fast Food">
+                    <label for="Fast Food">Fast Food</label><br>
+                    <input type="checkbox" id="Street Food" name="Street Food" value="Street Food">
+                    <label for="Street Food">Street Food</label><br>
+                </div>
+                <div id="cost">
+                    <h4>Cost For Two</h4>
+                    <input type="radio" id="Less than ₹500" name="cost" value="Less than ₹500">
+                    <label for="Less than ₹500">Less than ₹500</label><br>
+                    <input type="radio" id="₹500 to ₹1000" name="cost" value="₹500 to ₹1000">
+                    <label for="₹500 to ₹1000">₹500 to ₹1000</label><br>
+                    <input type="radio" id="₹1000 to ₹1500" name="cost" value="₹1000 to ₹1500">
+                    <label for="₹1000 to ₹1500">₹1000 to ₹1500</label><br>
+                    <input type="radio" id="₹1500 to ₹2000" name="cost" value="₹1500 to ₹2000">
+                    <label for="₹1500 to ₹2000">₹1500 to ₹2000</label><br>
+                    <input type="radio" id="₹2000+" name="cost" value="₹2000+">
+                    <label for="₹2000+">₹2000+</label><br>
+                </div>
+                <div id="highLow">
+                    <h4>Sort</h4>
+                    <input type="radio" id="Low to High" name="sort" value="Low to High">
+                    <label for="Low to High">Low to High</label><br>
+                    <input type="radio" id="High to Low" name="sort" value="High to Low">
+                    <label for="High to Low">High to Low</label><br>
+                </div>
+            </div>
+            <div class ="cardDiv">
+                <div class="card">
+                    <a href="..\details\details.html">
+                    <div class="top">
+                        <div class="picture">
+                            <img src="Breakfast.webp" height="90px" width="100px">
+                        </div>
+                        <div class="topDetails">
+                            <h1>The Big Chill Cakery</h1>
+                            <p>PORT</p>
+                            <span>Shop 1, Plot D, Samruddhi Complex, Chincholi</span>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="type">CUISINES</div>
+                        <div class="typeDetail">Bakery</div><br />
+                        <div class="type">COST FOR TWO</div>
+                        <div class="typeDetail">₹ 700</div>
+                    </div></a>
+                </div><br />
+                <div class="card">
+                    <a href="..\details\details.html">
+                    <div class="top">
+                        <div class="picture">
+                            <img src="Breakfast.webp" height="90px" width="100px">
+                        </div>
+                        <div class="topDetails">
+                            <h1>The Big Chill Cakery</h1>
+                            <p>PORT</p>
+                            <span>Shop 1, Plot D, Samruddhi Complex, Chincholi</span>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="type">CUISINES</div>
+                        <div class="typeDetail">Bakery</div><br />
+                        <div class="type">COST FOR TWO</div>
+                        <div class="typeDetail">₹ 700</div>
+                    </div></a>
+                </div><br />
+                <div class="pages">
+                    <button class="pageNumbers"><b><</b></button>
+                    <button class="pageNumbers"><b>1</b></button>
+                    <button class="pageNumbers"><b>2</b></button>
+                    <button class="pageNumbers"><b>3</b></button>
+                    <button class="pageNumbers"><b>4</b></button>  
+                    <button class="pageNumbers"><b>></b></button>
+                </div>
+            </div>
+        </div>
+        <!--Footer Section-->
+        <footer>
+
+        </footer>
+    </body>
+</html>

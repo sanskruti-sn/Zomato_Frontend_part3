@@ -1,0 +1,729 @@
+body{
+    background-color: rgb(223, 219, 219) !important;
+}
+
+/*Navbar*/
+.navbar-inverse {
+    background-color: #da1818 !important;
+    height : 55px;
+} 
+
+.navbar{
+    margin-bottom : 0px;
+}
+
+.text-color{
+    color : white !important; 
+}
+
+.logo{
+    height : 40px;
+    width : 40px;
+    background-color: white;
+    border-radius :50%;
+    margin-left: 8%;
+    font-size: 37px;
+    float :left;
+    margin-top : -8px;
+}
+
+h3{
+    font-weight: bolder !important;
+    margin-left: 15px;
+    margin-top: 1px !important;
+    color: #e00808e5 !important;
+    position : absolute;
+}
+
+/*sort section*/
+/* Body Section */
+.body{
+    height : 700px;
+    width : 90%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+h2{
+    color : rgb(17, 17, 121) !important;
+    font-weight: 100 !important;
+}
+
+h4{
+    color : rgb(15, 15, 43) !important;
+}
+
+label{
+    color : rgb(77, 77, 141);   
+}
+
+option{
+    color :rgb(32, 32, 128);
+}
+
+select{
+    width : 70%;
+    color :rgb(27, 27, 122)
+}
+
+#heading{
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 50px;
+    font-weight: bolder;
+    color :rgb(12, 12, 94);
+    font-style: "Georgia";
+}
+
+#sort{
+    height : 570px;
+    width : 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+    float : left;
+    padding-left: 2%;
+    box-shadow: -6px 15px 20px grey;
+    background-color: whitesmoke;
+}
+
+.cardDiv{
+    height : 550px;
+    width : 60%;
+    float : left;
+    margin-left: 3%;
+    margin-top: 2%;
+    
+}
+
+h1{
+    color : rgb(32, 32, 128) !important;
+}
+
+p{
+    color : rgb(77, 77, 141);
+}
+
+.topDetails > span{
+    color : rgb(77, 77, 141);
+}
+
+.top{
+    height : 60%;
+    width : 90%;
+    margin: auto;
+    box-shadow : 0px 2px 0px rgb(214, 212, 212);
+}
+
+.bottom{
+    height : 50%;
+    width : 90%;
+    margin: auto;
+}
+
+.card{
+    height : 200px;
+    width : 90%;
+    margin :auto;
+    margin-top : 20px;
+    box-shadow: -6px 15px 20px grey;
+    background-color: whitesmoke;
+}
+
+.card:hover{
+    transform : scale(1.1);
+}
+
+.picture{
+    height : 90px;
+    width : 15%;
+    border-radius : 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    float : left;
+}
+
+img{
+    border-radius: 20%;
+}
+
+.topDetails{
+    float : left;
+    width : 60%;
+    line-height: 10px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.type{
+    width : 20%;
+    height : 23px;
+    float : left;
+    margin-left: 10px;
+    color : rgb(91, 91, 143);
+}
+
+.typeDetail{
+    width : 60%;
+    height : 23px;
+    float : left;
+    margin-left: 10px;
+    color : rgb(27, 27, 122);
+}
+
+.bottom{
+    margin-top: 10px;
+}
+
+.pages{
+    height : 50px;
+    width : 60%;
+    margin: auto;   
+    margin-top: 10px;
+}
+
+.pageNumbers{
+    height : 50px;
+    width : 50px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 10px 11px grey;
+    margin-left: 8px;
+}
+
+.pageNumbers:hover{
+    transform : scale(1.1);
+}
+
+b{
+    color:rgb(12, 12, 124)
+}
+
+/*Footer Section*/
+footer{
+    height : 60px;
+    background-color: #e00808e5;;
+}
+
+/*margin*/
+@media screen and (max-width:1300px){
+    
+
+    #heading{
+        font-size:48px;
+    }
+
+    .card{
+        width : 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    
+
+    #heading{
+        font-size:40px;
+    }
+
+    .cardDiv{
+        width : 70%;
+    }
+
+    .card{
+        width : 95%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    
+    .body{
+        height : 1000px;
+    }
+
+    #heading{
+        font-size:38px;
+    }
+
+    #sort{
+        height : 260px;
+        width : 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+        float : left;
+        padding-left: 2%;
+        box-shadow: -6px 15px 20px grey;
+        background-color: whitesmoke;
+    }
+
+    #location{
+        height : 175px;
+        width : 22.5%;
+        float : left;
+        box-shadow: 3px 0px 0px rgb(151, 150, 150);
+    }
+
+    #cuisine{
+        width : 22.5%;
+        float : left;
+        margin-left: 25px;
+        box-shadow: 3px 0px 0px rgb(151, 150, 150);
+    }
+
+    #cost{
+        width : 22.5%;
+        float : left;
+        margin-left: 25px;
+        box-shadow: 3px 0px 0px rgb(151, 150, 150);
+    }
+
+    #highLow{
+        width : 22.5%;
+        float : left;
+        margin-left: 25px;
+    }
+
+    .cardDiv{
+        height : 600px;
+        margin-top: 30px;
+        width : 80%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    
+
+    #heading{
+        font-size:36px;
+    }
+
+    #cuisine{
+        margin-left: 15px !important;
+        height : 180px;
+    }
+
+    #location{
+        width : 22% !important;
+        height : 180px;
+    }
+    
+    #cost{
+        margin-left: 15px !important;
+        width : 22%;
+        padding-right: 4px;
+        height : 180px;
+    }
+
+    #highLow{
+        margin-left: 15px !important;
+        height : 180px;
+    }
+
+    h1{
+        font-size: 24px !important;
+
+    }
+
+    p{
+        font-size: 19px !important;
+    }
+
+    span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:900px){
+    
+
+    #heading{
+        font-size:34px;
+    }
+
+    h4{
+        font-size: 19px !important;
+    }
+
+    label{
+        font-size: 15px !important;
+    }
+
+    #cuisine{
+        margin-left: 16px !important;
+        height : 180px;
+    }
+
+    #location{
+        width : 22% !important;
+        height : 180px;
+    }
+    
+    #cost{
+        margin-left: 16px !important;
+        width : 22%;
+        padding-right: 4px;
+        height : 180px;
+    }
+
+    #highLow{
+        margin-left: 16px !important;
+        height : 180px;
+    }
+
+    h1{
+        font-size: 22px !important;
+
+    }
+
+    p{
+        font-size: 17px !important;
+    }
+
+    span{
+        font-size: 13px;
+    }
+
+    .pageNumbers{
+        height : 50px;
+        width : 50px;
+        margin-left: 1px;
+    }
+
+    .pages{
+        width : 80%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:800px){
+    
+
+    #heading{
+        font-size:32px;
+    }
+
+    h4{
+        font-size: 17px !important;
+    }
+
+    label{
+        font-size: 13px !important;
+    }
+
+    #cuisine{
+        margin-left: 10px !important;
+        height : 180px;
+    }
+
+    #location{
+        width : 22% !important;
+        height : 180px;
+    }
+    
+    #cost{
+        margin-left: 10px !important;
+        width : 22%;
+        padding-right: 4px;
+        height : 180px;
+    }
+
+    #highLow{
+        margin-left: 10px !important;
+        height : 180px;
+    }
+
+    img{
+        height : 70px;
+        width : 70px;
+    }
+
+    h1{
+        font-size: 20px !important;
+
+    }
+
+    p{
+        font-size: 15px !important;
+    }
+
+    span{
+        font-size: 11px;
+    }
+
+    .card{
+        width : 450px;
+    }
+
+    .type{
+        font-size: 12px;
+    }
+
+    .pageNumbers{
+        height : 50px;
+        width : 50px;
+        margin-left: 1px;
+    }
+
+    .pages{
+        width : 80%;
+        margin-left: 15%;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    
+
+    #heading{
+        font-size:31px;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h4{
+        font-size: 15px !important;
+    }
+
+    label{
+        font-size: 10px !important;
+    }
+
+    #cuisine{
+        margin-left: 10px !important;
+        height : 230px;
+    }
+
+    #location{
+        width : 22% !important;
+        height : 230px;
+    }
+    
+    #cost{
+        margin-left: 10px !important;
+        width : 22%;
+        padding-right: 4px;
+        height : 230px;
+    }
+
+    #highLow{
+        margin-left: 10px !important;
+        height : 230px;
+    }
+
+    #sort{
+        height : 300px;
+    }
+
+    
+    img{
+        height : 70px;
+        width : 70px;
+    }
+
+    h1{
+        font-size: 18px !important;
+
+    }
+
+    p{
+        font-size: 15px !important;
+    }
+
+    span{
+        font-size: 11px;
+    }
+
+    .card{
+        width : 450px;
+    }
+
+    .type{
+        font-size: 12px;
+    }
+
+    .pageNumbers{
+        height : 40px;
+        width : 40px;
+        margin-left: 1px;
+    }
+
+    .pages{
+        width : 80%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+
+    #heading{
+        font-size:29px;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h4{
+        font-size: 15px !important;
+    }
+
+    label{
+        font-size: 10px !important;
+    }
+
+    #cuisine{
+        margin-left: 6px !important;
+        height : 230px;
+    }
+
+    #location{
+        width : 22% !important;
+        height : 230px;
+    }
+    
+    #cost{
+        margin-left: 10px !important;
+        width : 22%;
+        padding-right: 4px;
+        height : 230px;
+    }
+
+    #highLow{
+        margin-left: 10px !important;
+        height : 230px;
+    }
+
+    #sort{
+        height : 300px;
+    }
+
+    
+    img{
+        height : 70px;
+        width : 70px;
+    }
+
+    h1{
+        font-size: 15px !important;
+
+    }
+
+    p{
+        font-size: 13px !important;
+    }
+
+    span{
+        font-size: 11px;
+    }
+
+    .card{
+        width : 400px;
+    }
+
+    .type{
+        font-size: 12px;
+    }
+
+    .pageNumbers{
+        height : 30px;
+        width : 30px;
+        margin-left: 1px;
+    }
+
+    .pages{
+        width : 80%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:500px){
+    
+
+    #heading{
+        font-size:27px;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h4{
+        font-size: 15px !important;
+    }
+
+    label{
+        font-size: 10px !important;
+    }
+
+    #cuisine{
+        margin-left: 6px !important;
+        height : 230px;
+    }
+
+    #location{
+        width : 22% !important;
+        height : 230px;
+    }
+    
+    #cost{
+        margin-left: 10px !important;
+        width : 22%;
+        padding-right: 4px;
+        height : 230px;
+    }
+
+    #highLow{
+        margin-left: 10px !important;
+        height : 230px;
+    }
+
+    #sort{
+        height : 300px;
+    }
+
+    
+    img{
+        height : 70px;
+        width : 70px;
+    }
+
+    h1{
+        font-size: 15px !important;
+
+    }
+
+    p{
+        font-size: 13px !important;
+    }
+
+    span{
+        font-size: 11px;
+    }
+
+    .card{
+        width : 400px;
+    }
+
+    .type{
+        font-size: 12px;
+    }
+
+    .pageNumbers{
+        height : 30px;
+        width : 30px;
+        margin-left: 1px;
+    }
+
+    .pages{
+        width : 80%;
+        margin-left: 20%;
+    }
+}
+
+
+
